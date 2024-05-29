@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #E8EDF2;
+}
+
+div.form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 70px 30px -50px darkslategrey;
+}
+
+div.form_container div.myform{
+    width: 280px;
+    height: 280px;
+
+}
+
+div.inline{
+    display: inline-flex;
+}
+
+div.inline h2{
+    margin-right: 10px;
+    color: #dd2f6e;
+    margin-bottom: 18px;
+    font-size: 35px;
+}
+
+div.inline div.email{
+    margin-top: 11px;
+    color: darkblue;
+    font-size: 19px;
+}
+
+div.label{
+    color: #666;
+    padding-left: 18px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+div.myform .form-btn{
+    color: white;
+    background-color: #dd2f6e;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 9px;
+    font-weight: 600;
+    margin-right: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+div.myform p a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: 600;
+
+}
+div.myform p{
+    margin-left: 350px;
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form_container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-bottom: 50px;
+    background: #eee;
+}
+.form_container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+    width: 480px;
+}
+.form_container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #333;
+}
+.form_container form input,
+.form_container form textarea{
+    width: 100%;
+    padding: 12px 3px;
+    font-size: 15px;
+    margin: 4px 0;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.form_container form .form-btn{
+    background: #fbd0d9;
+    color: #DD2F6E;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.form_container form .form-btn:hover{
+    background: #DD2F6E;
+    color: #fff;
+
+}
+.form_container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+
+}
+.form_container form p a{
+    color: #DD2F6E;
+    text-decoration: none;
+    font-weight: 700;
+}
+.form_container form .error-msg{
+    margin:10px 0;
+    display:block;
+    background: #DD2F6E;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.email{
+    color: #DD2F6E;
+    font-size: 20px;
+}
+
+.label{
+    font-size: 25px;
+    text-align: left;
+    justify-content: space-between;
+    color: #532f7e;
+}
+
+label>span{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
