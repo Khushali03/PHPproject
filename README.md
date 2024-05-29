@@ -11,7 +11,7 @@ When Admin Confirm User's Event User Get Pdf of Booking details on their Login. 
 <br/><br/><br/>
 **LOGIN DETAILS** <br/>
 Admin<br/>
-user: Khushali Shah<br/>
-pass: Khushali@2003<br/>
+user: group10<br/>
+pass: kap<br/>
 
 <br/><br/>
